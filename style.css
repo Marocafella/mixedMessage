@@ -1,0 +1,43 @@
+header {
+    padding: 2em;
+    background-image: url(banner-background.jpg);   
+    background-size:cover; 
+    margin-top: 2em;
+    text-align: center;
+    color: #0C0C0D;
+}
+h1 {
+    text-shadow: 2px 2px #ffffff;
+  }
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    font-size: 2em;
+}
+.btn-large {
+    margin: 1.5em;
+    width: 17em;
+}
+.card {
+    text-align: center;
+    width: 45em;
+    background-image: url(background.jpg);
+}
+.new-quote-button {
+    color: #0C0C0D;
+    background-color: transparent;
+    border-color: #ffffff;
+    
+}
+
+#button:hover{
+    color: #0C0C0D;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
